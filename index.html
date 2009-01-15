@@ -10,41 +10,64 @@
 /* commented backslash hack for ie5mac \*/ 
 html, body{height:100%;font-size:1em;} 
 /* end hack */
-div.center_box {
+div#center_box {
 width:550px;
 height:240px;
 position: absolute;
 left: 50%;
 top: 50%;
 margin-top: -120px; /* make this half your image/element height */
-margin-left: -250px; /* make this half your image/element width */
+margin-left: -300px; /* make this half your image/element width */
 }
-div.center_box img {
+div#center_box img {
   position:absolute;
 }
-div.center_box >div {
+div#center_box >div {
   vertical-align:bottom;
   height:220px;
-/*  border:1px solid black;
-*/  margin-left:245px;
+  margin-left:245px;
   position:absolute;
   font-size:1.5em;
 }
-div.center_box >div >div {
+div#center_box >div >div {
   margin-bottom:20px;
+}
+
+div#navigation {
+  margin-left:20px;
+}
+
+div#navigation ul {
+  list-style:none;
+  font-size:1.25em;
+}
+div#navigation ul li {
+  display:inline;
+  margin-right:40px;
 }
 </style>
 	
 </head>
 
 <body>
-<div class='center_box'>
+
+<div id='center_box'>
   <img src='images/corey_haines.jpg' />
   <div>
     <div>Welcome to my homepage</div>
-    <div>I'm Corey Haines</div>
+    <div>I'm Corey Haines,<br />Software Journeyman</div>
     <div>Thank you for your time</div>
+    <div>Please look around</div>
   </div>
+</div>
+
+<div id='navigation'>
+  <h2>Where would you like to go today?</h2>
+  <ul>
+    <li><a href='http://programmingtour.blogspot.com/'>The Journeyman Tours</a></li>
+    <li><a href="http://geekstorycorp.blogspot.com/">The "How I Got Started" Interviews</a></li>
+    <li><a href='about_corey.html'>About Corey Haines</a></li>
+  </ul>
 </div>
 
 </body>
