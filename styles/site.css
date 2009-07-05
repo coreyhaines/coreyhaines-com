@@ -1,3 +1,7 @@
 ul{
   list-style:none;
 }
+
+ul.spaced li{
+	margin-bottom:10px;
+}
