@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<style type="text/css" media="screen">
+  #clippy{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    font-size: .75em;
+    display:none;
+  }
+  #clippy .voice {
+    background-color:#FEFFBD;
+    height:100px;
+    width:90%;
+    padding:10px;
+    margin-right:10px;
+    font-family: Courier;
+    border:1px solid black;
+  }
+  body {
+    background-image:url('images/picture_1.png');
+    background-repeat: no-repeat;
+  }
+  .button_list{
+    margin-top:15px;
+    text-align:center;
+  }
+  </style>
+
+<script src="http://www.google.com/jsapi"></script>
+<script>
+google.load("jquery", "1");
+google.setOnLoadCallback(function() {
+  $("#clippy").fadeIn(3000);
+  $("#clippy #yes").click(function(){window.location.href = "http://www.mozilla.com/en-US/";})
+  $("#clippy #no").click(function(){$("#clippy").hide();})
+}
+  
+);
+</script>
+</head>
+
+<body>
+<div id='clippy'>
+  <div class='voice'>
+    I noticed you are using Internet Explorer.<br />
+    Would you like me to make it render properly?
+    <div class='button_list'>
+      <button id='yes'>Yes</button>
+      <button id='no'>No</button>
+    </div>
+  </div>
+  <img src="images/clippy.jpg" />  
+</div>
+</body>
+</html>
