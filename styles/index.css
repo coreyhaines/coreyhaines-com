@@ -7,6 +7,13 @@ div#contact_information {
 div#contact_information h2 {
   font-size: 1.2em;
 }
+
+div#tripit-badge {
+  position:absolute;
+  bottom:10px;
+  left:10px;
+}
+
 div#navigation {
   margin-left:20px;
 }
