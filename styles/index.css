@@ -14,24 +14,3 @@ div#tripit-badge {
   left:10px;
 }
 
-div#navigation {
-  margin-left:20px;
-}
-
-div#navigation ul {
-  list-style:none;
-  font-size:1.25em;
-}
-div#navigation ul li {
-  display:inline;
-  margin-right:40px;
-}
-div#navigation ul li a {
-  text-decoration:none;
-  border-bottom:1px dotted black;
-	color:#111111;
-}
-div#navigation ul li a:hover {
-  color:orange;
-  border-bottom:0px;
-}

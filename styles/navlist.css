@@ -1,0 +1,50 @@
+/**
+ * Based on 'Horizontal Bullet On Hover'
+ * by Hekima - http://hekima.lionking.org/maus/
+ * found on Listamatic
+ * http://css.maxdesign.com.au/listamatic/horizontal25.htm
+**/
+.navcontainer
+{
+margin-left: -40px;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+.navcontainer .navlist_header {
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.navlist li
+{
+/* display: inline; */
+padding-bottom: 14px;
+background-repeat: no-repeat;
+}
+
+.navlist a
+{
+padding-left: 20px;
+padding-bottom: 14px;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.navlist a:link, .navlist a:visited
+{
+padding-left: 20px;
+color: red;
+background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+background-position: 0 -28px;
+background-repeat: no-repeat;}
+
+.navlist a:hover
+{
+color: black;
+padding-left: 20px;
+background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+background-repeat: no-repeat;
+background-position: 0 -14px;} 
+
