@@ -5,3 +5,7 @@ ul{
 ul.spaced li{
 	margin-bottom:10px;
 }
+
+.vcard .name {
+  display: none;
+}
