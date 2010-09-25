@@ -36,7 +36,7 @@ text-decoration: none;
 {
 padding-left: 20px;
 color: red;
-background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+/* background: url(http://hekima.lionking.org/randomness/arrowbullet.gif); */
 background-position: 0 -28px;
 background-repeat: no-repeat;}
 
@@ -44,7 +44,7 @@ background-repeat: no-repeat;}
 {
 color: black;
 padding-left: 20px;
-background: url(http://hekima.lionking.org/randomness/arrowbullet.gif);
+/* background: url(http://hekima.lionking.org/randomness/arrowbullet.gif); */
 background-repeat: no-repeat;
-background-position: 0 -14px;} 
+background-position: 0 -14px;}
 
