@@ -1,6 +1,4 @@
 /**
- * Based on 'Horizontal Bullet On Hover'
- * by Hekima - http://hekima.lionking.org/maus/
  * found on Listamatic
  * http://css.maxdesign.com.au/listamatic/horizontal25.htm
 **/
@@ -36,7 +34,6 @@ text-decoration: none;
 {
 padding-left: 20px;
 color: red;
-/* background: url(http://hekima.lionking.org/randomness/arrowbullet.gif); */
 background-position: 0 -28px;
 background-repeat: no-repeat;}
 
@@ -44,7 +41,6 @@ background-repeat: no-repeat;}
 {
 color: black;
 padding-left: 20px;
-/* background: url(http://hekima.lionking.org/randomness/arrowbullet.gif); */
 background-repeat: no-repeat;
 background-position: 0 -14px;}
 
