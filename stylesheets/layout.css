@@ -1,0 +1,62 @@
+html {
+  background: #1b120d;
+}
+body {
+  background: #995e24;
+  margin: 0 auto;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+#header {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#header a#logo{
+  float: left;
+}
+#header h1 {
+  float: left;
+  background: url(/images/logo.png) no-repeat 0 0;
+  width: 515px;
+  height: 88px;
+  /* text-indent: -9999px; */
+  margin: 2em 0;
+}
+#contact {
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 999;
+}
+#contact a#contact-btn {
+  background: url(/images/bg-contact-btn.png) no-repeat 0 0;
+  width: 158px;
+  height: 33px;
+  display: block;
+  font-size: 1.6em;
+  padding: 4px 15px;
+  color: #fffacb;
+  position:absolute;
+  right: 0px;
+}
+#contact a#contact-btn.open {
+  background: url(/images/bg-contact-btn-up.png) no-repeat 0 0;
+}
+#contact #contact-info {
+  background-color: #312118;
+  padding: 5px;
+  color: #fffacb;
+}
+#contact #contact-info h2 {
+  margin-bottom: .25em;
+}
+#contact #contact-info ul {
+  list-style: none;
+}
+#contact #contact-info a:hover {
+  text-decoration: underline;
+  color: #d73513;
+}
