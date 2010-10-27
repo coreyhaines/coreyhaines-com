@@ -60,6 +60,9 @@ body {
   text-decoration: underline;
   color: #d73513;
 }
+#contact #contact-info .name {
+  display: none;
+}
 #sidebar {
   float: left;
   width: 220px;
