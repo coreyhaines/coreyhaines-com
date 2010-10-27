@@ -60,3 +60,107 @@ body {
   text-decoration: underline;
   color: #d73513;
 }
+#sidebar {
+  float: left;
+  width: 220px;
+  min-height: 381px;
+}
+ul#nav {
+  background: url(/images/bg-nav.jpg) no-repeat 0 0;
+  width: 216px;
+  height: 381px;
+  margin-top: 30px;
+  padding: 10px 0 10px 10px;
+}
+ul#nav li {
+  list-style-type: none;
+  font-size: 1.7em;
+  line-height: 1.8;
+}
+ul#nav li a {
+  padding-left: 20px;
+  color: #fffacb;
+}
+ul#nav li a:hover, ul#nav li a#active {
+  text-decoration: none;
+  color: #312118;
+  background: url(/images/bg-nav-active.png) no-repeat 0 0;
+  }
+#main {
+  float: left;
+  width: 680px;
+  margin-left: 20px;
+  margin-top: -50px;
+}
+#slideshow {
+  background-color: #312118;
+  padding: 2em 2.5em;
+  margin-bottom: 2em;
+}
+#slideshow ul {
+ margin: 0;
+ padding: 0;
+}
+#slideshow ul li{
+  list-style-type: none;
+}
+#content {
+  background: #fffacb url(/images/bg-content-btm.jpg) repeat-x bottom left;
+  padding: 20px 20px 40px 20px;
+  margin-bottom: 20px;
+}
+#footer {
+  clear: both;
+  background-color: #1b120d;
+  min-height: 200px;
+  width: 100%;
+  float: left;
+
+}
+.container-wide {
+  width: 1000px;
+  margin: 0 auto;
+}
+#footer .section {
+  width: 274px;
+  padding: 20px;
+  float: left;
+  min-height: 350px;
+  margin: 20px 28px 20px 0;
+  background-color: #312118;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: #b16d2a;
+}
+#footer .last {
+  margin-right: 0;
+}
+#footer h2 {
+}
+#footer p {
+}
+#footer a {
+  color: #e68d36;
+}
+#tripit-badge #tripit-badge-inner-div hr {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #1b120d;
+  background-color: #1b120d;
+}
+
+#twtr-widget-1 .twtr-hd {
+  display: none;
+}
+
+.twtr-widget .twtr-tweet {
+  border-bottom: 1px solid #1b120d !important;
+  margin-bottom: 6px;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+}
