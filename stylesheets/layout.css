@@ -1,5 +1,5 @@
 html {
-  background: #1b120d;
+  /* background: #1b120d; */
 }
 body {
   background: #995e24;
@@ -13,6 +13,7 @@ body {
   float: left;
   width: 100%;
   position: relative;
+  margin-bottom: 40px;
 }
 #header a#logo{
   float: left;
@@ -91,7 +92,7 @@ ul#nav li a:hover, ul#nav li a#active {
   }
 #main {
   float: left;
-  width: 680px;
+  width: 100%;
   margin-left: 20px;
   margin-top: -50px;
 }
@@ -108,10 +109,27 @@ ul#nav li a:hover, ul#nav li a#active {
   list-style-type: none;
 }
 #content {
-  background: #fffacb url(/images/bg-content-btm.jpg) repeat-x bottom left;
-  padding: 20px 20px 40px 20px;
+  /* background: #fffacb url(/images/bg-content-btm.jpg) repeat-x bottom left; */
+  /* padding: 20px 20px 40px 20px; */
   margin-bottom: 20px;
+  clear: both;
 }
+#content .section {
+}
+#content .section h2 {
+  background: #d73513 url(/images/bg-contact-btn.png) no-repeat 100%;
+  padding: 5px 5px 5px 15px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#content .section .description {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #fffacb;
+  padding: 10px;
+}
+
 #footer {
   clear: both;
   background-color: #1b120d;
