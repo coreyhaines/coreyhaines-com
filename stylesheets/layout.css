@@ -10,21 +10,30 @@ body {
   margin: 0 auto;
 }
 #header {
-  float: left;
   width: 100%;
   position: relative;
   margin-bottom: 40px;
+  float: left;
 }
 #header a#logo{
   float: left;
+  display: block;
+  width: 230px;
+  border: none;
+  text-decoration: none;
 }
 #header h1 {
   float: left;
-  background: url(/images/logo.png) no-repeat 0 0;
+  background: url(/new-images/coreys-name.jpg) no-repeat 0 0;
   width: 515px;
-  height: 88px;
-  /* text-indent: -9999px; */
-  margin: 2em 0;
+  height: 67px;
+  text-indent: -9999px; 
+  margin: 2em 0 0 0 ;
+}
+#header h2 {
+  color: #f68937;
+float: left;
+margin: 0;
 }
 #contact {
   position:absolute;
@@ -37,7 +46,7 @@ body {
   width: 158px;
   height: 33px;
   display: block;
-  font-size: 1.6em;
+  font-size: 1.3em;
   padding: 4px 15px;
   color: #fffacb;
   position:absolute;
@@ -91,7 +100,7 @@ ul#nav li a:hover, ul#nav li a#active {
   background: url(/images/bg-nav-active.png) no-repeat 0 0;
   }
 #main {
-  float: left;
+  clear: left;
   width: 100%;
   margin-left: 20px;
   margin-top: -50px;
@@ -113,24 +122,22 @@ ul#nav li a:hover, ul#nav li a#active {
   /* padding: 20px 20px 40px 20px; */
   margin-bottom: 20px;
   clear: both;
+  width: 899px;
 }
 #content .section {
 }
 #content .section h2 {
-  background: #d73513 url(/images/bg-contact-btn.png) no-repeat 100%;
-  padding: 5px 5px 5px 15px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  background: transparent url(/new-images/bg-accordian-hd.png) no-repeat 0 0;
+  padding: 9px 5px 9px 15px;
+  margin-top: 0;
+  color: #fffacb;
 }
 #content .section .description {
   margin-left: 10px;
   margin-right: 10px;
   background: #fffacb;
   padding: 10px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+
 }
 
 #footer {
@@ -188,3 +195,17 @@ ul#nav li a:hover, ul#nav li a#active {
   padding-right: 0px !important;
   padding-top: 0px !important;
 }
+
+.clear {
+    clear: both;
+}
+.clearfix:after, .container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix, .container {
+    display: block;
