@@ -144,14 +144,22 @@ ul#nav li a:hover, ul#nav li a#active {
 .section h3 a {
   color: #fffacb;
   text-transform: lowercase;
+}
+.section h3.ui-state-active {
+  background: transparent url(/new-images/bg-accordian-up.png) no-repeat 0 0;
   
 }
 .section .description {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
   background: #fffacb;
   padding: 10px 10px 10px 20px;
-
+  min-height: 300px;
+  
+}
+.portrait {
+  float: right;
+  margin-left: 20px;
 }
 
 #footer {
