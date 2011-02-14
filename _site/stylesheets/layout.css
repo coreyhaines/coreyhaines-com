@@ -9,6 +9,7 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+
 #header {
   width: 100%;
   position: relative;
@@ -21,19 +22,26 @@ body {
   width: 230px;
   border: none;
   text-decoration: none;
+  margin-top: 20px;
+}
+.summary {
+  float: left;
+  width: 515px;
+  margin-left: 55px;
+}
+.summary p {
+  color: #FFD57B ;
 }
 #header h1 {
-  float: left;
-  background: url(/new-images/coreys-name.jpg) no-repeat 0 0;
+  background: url(/new-images/coreys-name.png) no-repeat 0 0;
   width: 515px;
   height: 67px;
   text-indent: -9999px; 
-  margin: 2em 0 0 0 ;
+  margin: 1em 0 0 0 ;
 }
 #header h2 {
   color: #f68937;
-float: left;
-margin: 0;
+  margin: 0;
 }
 #contact {
   position:absolute;
@@ -124,19 +132,25 @@ ul#nav li a:hover, ul#nav li a#active {
   clear: both;
   width: 899px;
 }
-#content .section {
+.section {
 }
-#content .section h2 {
+.section h3 {
   background: transparent url(/new-images/bg-accordian-hd.png) no-repeat 0 0;
   padding: 9px 5px 9px 15px;
-  margin-top: 0;
+  margin: 0;
   color: #fffacb;
+  font-size: 24px;
 }
-#content .section .description {
+.section h3 a {
+  color: #fffacb;
+  text-transform: lowercase;
+  
+}
+.section .description {
   margin-left: 10px;
   margin-right: 10px;
   background: #fffacb;
-  padding: 10px;
+  padding: 10px 10px 10px 20px;
 
 }
 
@@ -146,7 +160,6 @@ ul#nav li a:hover, ul#nav li a#active {
   min-height: 200px;
   width: 100%;
   float: left;
-
 }
 .container-wide {
   width: 1000px;
@@ -163,6 +176,8 @@ ul#nav li a:hover, ul#nav li a#active {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   color: #b16d2a;
+  font-size: 14px;
+  
 }
 #footer .last {
   margin-right: 0;
@@ -170,6 +185,11 @@ ul#nav li a:hover, ul#nav li a#active {
 #footer h2 {
 }
 #footer p {
+  color: #b16d2a;
+}
+#footer p#entryway {
+  clear: both;
+  color: #bf752d;
 }
 #footer a {
   color: #e68d36;
